@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyLotoMillions</string>
+    <string name="menu_pref">Préférences</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:id="@+id/pref_loto_cb"
+        android:title="LOTO"
+        android:summaryOn="Affiché"
+        android:summaryOff="Caché"
+        android:defaultValue="true"/>
+
+    <EditTextPreference
+        android:id="@+id/pref_loto_et"
+        android:title="Seuil d'alerte loto"
+        android:defaultValue="10"
+        />
+
+    <CheckBoxPreference
+        android:id="@+id/pref_em_cb"
+        android:title="LOTO"
+        android:defaultValue="true"
+        android:summaryOn="Affiché"
+        android:summaryOff="Caché" />
+
+    <EditTextPreference
+        android:id="@+id/pref_em_et"
+        android:title="Seuil d'alerte euro millions"
+        android:defaultValue="50"
+        />
+
+
+</PreferenceScreen>
