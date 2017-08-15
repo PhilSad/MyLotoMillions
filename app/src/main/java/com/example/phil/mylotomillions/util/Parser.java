@@ -6,6 +6,6 @@ package com.example.phil.mylotomillions.util;
 
 public class Parser {
 
-    public static int coucou
+    public static int coucou aaa
 
 }
